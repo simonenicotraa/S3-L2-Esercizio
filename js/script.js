@@ -3,10 +3,14 @@
 var nome= prompt('Ciao! Inserisci il tuo nome');
 document.getElementById('inser_nome').innerHTML=nome;
 
+
 var cognome= prompt('Inserisci il tuo cognome');
 document.getElementById('inser_cognome').innerHTML=cognome;
 
- 
+console.log(nome + ' ' + cognome);
+
+document.write('Grazie per essere stato qui' + ' ' + nome + ' ' + cognome) ;
+
 var val1= +prompt('Inserisci un numero: Valore 1');
 document.getElementById('valore_1').innerHTML=val1;
 
@@ -14,6 +18,15 @@ document.getElementById('valore_1').innerHTML=val1;
 var val2 = +prompt('Inserisci un altro numero: Valore 2');
 document.getElementById('valore_2').innerHTML=val2;
 
+if (val1 < val2){
+    alert('ottima scelta il val2 maggiore del val1');
+} 
+if  (val1 > val2)  {
+    alert('Come mai hai messo il primo valore più grande del secondo? Va be non fa nulla');
+} 
+if (val1 == val2){
+    alert('ma dai un pò di originalità!');
+}
 
 
 const pi= 3.14
@@ -35,6 +48,9 @@ document.getElementById('somma1').innerHTML=sommavar;
     var val3= 50
     var somval3= sommavar + val3
     document.getElementById('somma2').innerHTML=somval3;
+}
+if(sommavar%2==0){
+console.log(sommavar%2==0);
 }
 
 var somval3= sommavar+val3
