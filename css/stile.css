@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+.contenitore{
+    width: 80%;
+    min-height: 100px ;
+    border: 1px solid black;
+    margin: auto;
+}
+.contenitore div{
+    text-align: left;
+}
