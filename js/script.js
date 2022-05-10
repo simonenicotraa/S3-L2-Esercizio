@@ -50,7 +50,9 @@ document.getElementById('somma1').innerHTML=sommavar;
     document.getElementById('somma2').innerHTML=somval3;
 }
 if(sommavar%2==0){
-console.log(sommavar%2==0);
+console.log(true);
+} else {
+console.log(false);
 }
 
 var somval3= sommavar+val3
